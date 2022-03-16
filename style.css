@@ -51,7 +51,9 @@ body{
 a{
   text-decoration: none;
   color: var(--light);
- 
+  text-shadow: 
+  .08rem .08rem 0 var(--secundary),
+  -.08rem -.08rem 0 var(--secundary); 
 }
 
 .title-landing{
@@ -63,6 +65,13 @@ a{
   top: 18%;
   line-height: 8.5rem;
   z-index: 1;
+  
+}
+
+.title-landing span{
+  text-shadow: 
+  .15rem .15rem 0 var(--secundary),
+  -.15rem -.15rem 0 var(--secundary);
 }
 
 .logo-landing{
@@ -120,7 +129,8 @@ width: 5.5rem;
 .arrow{
   position: absolute;
   bottom: 5%;
-  right: 46%;
+  right: 47%;
   animation: var(--animation-float);
+ }
 
-      }
+ 
