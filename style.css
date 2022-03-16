@@ -172,6 +172,8 @@ width: 5.5rem;
     bottom: 1%;
  }
 
+}
+
  @media(max-width: 426px){
   .sm-list{
     display: flex;
@@ -183,23 +185,21 @@ width: 5.5rem;
     width: 42.5rem;
     height: 100vh;
   }
-}
- }
 
- .pizza{
-   width: 30rem;
+  .pizza{
+    width: 30rem;
+  }
+ 
+  .title-landing{
+   font-size: 5rem;
+   line-height: 6rem;
+   top: 35%;
  }
-
- .title-landing{
-  font-size: 5rem;
-  line-height: 6rem;
-  top: 35%;
 }
 
 @media(max-width: 376px){
   .list-landing{
-    display: flex;
-    left: 0%;
+    left: -10%;
   }
 
   .wrapper{
