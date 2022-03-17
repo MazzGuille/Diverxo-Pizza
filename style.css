@@ -34,6 +34,7 @@ body {
   width: 100%;
   position: relative;
   z-index: 2;
+  overflow-x:hidden
 }
 
 .list-landing {
@@ -247,5 +248,7 @@ a {
   background-attachment: fixed;
   width: 100%;
   height: 100vh;
+  display: grid;
+  grid-template-columns: 1
 }
 
