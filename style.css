@@ -19,24 +19,24 @@ html {
   padding: 0;
 }
 
+/*-----------------------------------------------------------------HOME SECTION---------------------------------------------------------------*/
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 0.5rem;
 }
 
 .wrapper {
   background-color: var(--primary);
   height: 100vh;
-  width: 97%;
+  width: 100%;
   position: relative;
 }
 
 .list-landing {
   display: flex;
   color: var(--light);
+  height: 10vh;
   width: 20%;
   margin-top: 2rem;
   margin-left: 6rem;
@@ -127,6 +127,14 @@ a {
   animation: var(--animation-float);
 }
 
+.separation1{
+  height: 90vh;
+  width: 100%;
+  color: var(--primary);
+}
+
+/*-----------------------------------------------------------------HOME MEDIA QUERY----------------------------------------------------------*/
+
 @media (max-width: 1025px) {
   .arrow {
     right: 41.5%;
@@ -148,7 +156,7 @@ a {
   }
 
   .title-landing {
-    top: 30%;
+    top: 20%;
     left: 5%;
   }
   .list-landing {
@@ -204,4 +212,25 @@ a {
     width: 3.5rem;
   }
 
+  @media (max-width: 426px){
+    .sm-list {
+      bottom: 20%; 
+    }
+  }
+
+}
+/*-----------------------------------------------------------------ABOUT SECTION--------------------------------------------------------------*/
+
+
+.about-page{
+  background-image: url(images/Multimedia/Figma/about/Mobile/BG\ About.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.testing{
+  height: 100vh;
 }
