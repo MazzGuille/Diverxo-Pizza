@@ -190,8 +190,10 @@ a {
   }
   .list-landing {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  }
+
+  .list-landing li{
+    margin: 1rem;
   }
 
   .sm-list {
