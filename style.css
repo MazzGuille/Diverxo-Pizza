@@ -34,7 +34,7 @@ body {
   width: 100%;
   position: relative;
   z-index: 2;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .list-landing {
@@ -148,7 +148,7 @@ a {
 @media (max-width: 1025px) {
   .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
   .arrow {
     right: 41.5%;
@@ -158,7 +158,7 @@ a {
 @media (max-width: 870px) {
   .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
 
   .logo-landing {
@@ -195,7 +195,7 @@ a {
  
   .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
 
   .title-landing {
@@ -247,6 +247,10 @@ a {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+}
+
+.testing{
+  height: 570px;
 }
 
