@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   padding: .5rem;
   z-index: 1;
-  width: 100vw;
+  
 }
 
 .wrapper {

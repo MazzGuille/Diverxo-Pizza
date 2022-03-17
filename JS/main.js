@@ -1,6 +1,6 @@
 window.sr = ScrollReveal();
 
-sr.reveal('body',{
+sr.reveal('.wrapper',{
     distance: '0px',
     opacity: 0,
     duration: 3500
@@ -53,5 +53,13 @@ sr.reveal('.arrow',{
     distance: '100px',
     delay: 5500,
 });
+
+sr.reveal('.about-page',{
+    distance: '0px',
+    opacity: 0,
+    duration: 3500
+});
+
+
 
 
