@@ -25,6 +25,7 @@ body {
   flex-direction: column;
   padding: 0.5rem;
   z-index: 1;
+  width: 100vw;
 }
 
 .wrapper {
@@ -183,6 +184,10 @@ a {
 
 @media (max-width: 426px) {
   
+  body {
+    width: 100vw;
+  }
+ 
   .wrapper {
     width: 100vw;
     height: 100vh;
