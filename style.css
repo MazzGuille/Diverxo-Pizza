@@ -29,8 +29,8 @@ body {
 .wrapper { 
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
-  background-color: var(--primary);
+  overflow: hidden;
+  
  
 }
 
@@ -66,8 +66,8 @@ a {
 
 .title-landing {
   position: absolute;
-  font-size: 11rem;
-  line-height: 11rem;
+  font-size: 9rem;
+  line-height: 9rem;
   font-weight: 800;
   color: var(--light);
   left: 30%;
@@ -235,7 +235,7 @@ a {
 
   .pizza img {
     width: 23rem;
-    top: -4%;
+    top: -1%;
   right: -.5%;
   }
 
@@ -272,7 +272,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
 }
 
