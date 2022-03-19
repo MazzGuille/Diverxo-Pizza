@@ -409,3 +409,63 @@ font-size: 2.4rem;
 }
 
 /*-------------------------------------------------------MENU-----------------------------------------------------------------*/
+.menu-container{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(images/Multimedia/Figma/Menu/BG\ Menu\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  color: var(--light);
+}
+
+.menu-head{
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 1rem;
+}
+
+.menu-head h2{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.medidas{
+  display: flex;
+  justify-content: space-around;
+}
+
+.medidas div{
+  height: 20rem;
+  width: 20rem;
+ display: flex;
+}
+
+.s25, .s35, .s40{
+ align-items: center;
+}
+
+.menu-grid{
+height: 90%;
+width: 100%;
+padding: .75rem;
+display: grid;
+grid-gap: .75rem;
+grid-template-areas: 
+"napolitana jamon margarita peperoni"
+"ula spring pollochamp honeymust"
+"bbqsteak vasca bluebacon tartufa"
+"especial especial especial especial"
+"deluxe diverxop carnes4 quesos4"
+;
+}
+
+.especial{
+  grid-area: especial;
+  
+}
