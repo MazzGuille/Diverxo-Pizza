@@ -9,7 +9,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -29,13 +29,13 @@ body {
 .wrapper { 
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   
  
 }
 
 .landing{
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: relative;
   background-color: var(--primary);
@@ -263,7 +263,7 @@ a {
   }
 
   .parallax1{
-    height: 110vh;
+    height: 80vh;
   }
 
 }
@@ -289,8 +289,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   padding: 1rem;
+  font-weight: 600;
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: 
@@ -303,18 +305,21 @@ a {
 }
 
 .about-page img {
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;  
 }
 
-.leo{
+.leo, .migue, .familia, .pizza-corner{
   grid-area: leo;
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 
-.h2{
+.h2, .diverxo, .años, .text, .catch-phrase{
   padding: 1rem;
   grid-area: h2;
   height: 100%;
@@ -322,9 +327,6 @@ a {
   display: flex;
   flex-direction: column;
   color: var(--light);
-  text-shadow: 
-     0.15rem 0.15rem 0 var(--secundary),
-    -0.15rem -0.15rem 0 var(--secundary);
   font-size: 1.8rem;  
 }
 
@@ -335,75 +337,61 @@ a {
 
 .diverxo{
   grid-area: diverxo;
-  height: 100%;
-  width: 100%;
-  color: var(--light);
-  text-shadow: 
-     0.15rem 0.15rem 0 var(--secundary),
-    -0.15rem -0.15rem 0 var(--secundary);
-  font-size: 1.8rem; 
- 
+   
 }
 
 .años{
   grid-area: years;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  color: var(--light);
-  text-shadow: 
-     0.15rem 0.15rem 0 var(--secundary),
-    -0.15rem -0.15rem 0 var(--secundary);
-  font-size: 1.8rem; 
 }
 
 .migue{
   grid-area: migue;
-  height: 100%;
-  width: 100%;
- 
 }
 
 .familia{
   grid-area: familia;
-  height: 100%;
-  width: 100%;
- 
 }
 
 .text{
   grid-area: ekisde;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  color: var(--light);
-  text-shadow: 
-     0.15rem 0.15rem 0 var(--secundary),
-    -0.15rem -0.15rem 0 var(--secundary);
-  font-size: 1.8rem; 
 }
 
 .catch-phrase{
   grid-area: vamos;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  color: var(--light);
-  text-shadow: 
-     0.15rem 0.15rem 0 var(--secundary),
-    -0.15rem -0.15rem 0 var(--secundary);
-  font-size: 1.8rem; 
 }
 
 .pizza-corner{
   grid-area: tabla;
-  height: 100%;
-  width: 100%;
 }
 
+/*-----------------------------------------------------------------HOME MEDIA QUERY----------------------------------------------------------*/
 
+@media (min-width: 600px){
+.h2, .diverxo, .años, .text, .catch-phrase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+font-size: 2.4rem;
+  }
 
+/*  .about-page img {
+    height: 20rem;
+    width: 20rem;  
+  }
+*/
+}
 
+@media (min-width: 1200px){
+  .h2, .diverxo, .años, .text, .catch-phrase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  font-size: 3.6rem;  
+   }
+
+  /* .about-page img {
+    height: 25rem;
+    width: 25rem;  
+  }
+*/
+}
