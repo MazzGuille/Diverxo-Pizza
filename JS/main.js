@@ -57,77 +57,77 @@ sr.reveal('.arrow',{
 sr.reveal('.about-page',{
     distance: '0px',
     opacity: 0,
-    duration: 4000
+    duration: 2000
 });
 
 sr.reveal('.leo',{
-    duration: 3000,
+    duration: 2000,
     origin: 'left',
     distance: '100px',
-    delay: 1000,
+    delay: 500,
 });
 
 sr.reveal('.h2 h2',{
-    duration: 4500,
+    duration: 2000,
     origin: 'left',
     distance: '300px',
-    delay: 1200,
+    delay: 750,
 });
 
 sr.reveal('.h2 p',{
     distance: '0px',
     opacity: 0,
-    duration: 4000,
-    delay: 1300,
+    duration: 2000,
+    delay: 1000,
 });
 
 sr.reveal('.diverxo',{
-    duration: 4500,
+    duration: 2000,
     origin: 'bottom',
     distance: '300px',
-    delay: 1500,
+    delay: 1200,
 });
 
 sr.reveal('.años',{
-    duration: 4500,
+    duration: 2000,
     origin: 'bottom',
     distance: '300px',
-    delay: 1600,
+    delay: 1200,
 });
 
 sr.reveal('.migue',{
-    duration: 4500,
+    duration: 2000,
     origin: 'right',
     distance: '300px',
-    delay: 1600,
+    delay: 1200,
 });
 
 sr.reveal('.text',{
-    duration: 4500,
+    duration: 2000,
     origin: 'bottom',
     distance: '300px',
-    delay: 1700,
+    delay: 1300,
 });
 
 sr.reveal('.familia',{
-    duration: 4500,
+    duration: 2000,
     origin: 'left',
     distance: '300px',
-    delay: 1700,
+    delay: 1300,
 });
 
 sr.reveal('.catch-phrase',{
-    duration: 4500,
+    duration: 2000,
     origin: 'bottom',
     distance: '300px',
-    delay: 1800,
+    delay: 1300,
 });
 
 sr.reveal('.pizza-corner',{
-    duration: 4500,
+    duration: 2000,
     origin: 'right',
     distance: '300px',
-    delay: 1800,
+    delay: 1300,
 });
 
 

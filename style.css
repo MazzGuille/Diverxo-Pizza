@@ -395,3 +395,17 @@ font-size: 2.4rem;
   }
 */
 }
+
+/*-------------------------------------------------------parallax2-----------------------------------------------------------------*/
+
+.parallax2{
+  background-image: url(images/Multimedia/Figma/Parallax1/Ingredientes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 150vh;
+  width: 100%;
+}
+
+/*-------------------------------------------------------MENU-----------------------------------------------------------------*/
