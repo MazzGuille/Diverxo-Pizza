@@ -58,8 +58,6 @@ body {
 a {
   text-decoration: none;
   color: var(--light);
-  text-shadow: 0.08rem 0.08rem 0 var(--secundary),
-    -0.08rem -0.08rem 0 var(--secundary);
 }
 
 .title-landing {
@@ -71,11 +69,6 @@ a {
   left: 30%;
   top: 13%;
   z-index: 3;
-}
-
-.title-landing span {
-  text-shadow: 0.15rem 0.15rem 0 var(--secundary),
-    -0.15rem -0.15rem 0 var(--secundary);
 }
 
 .logo-landing {
@@ -672,6 +665,8 @@ a {
   ;
   }
 }
+
+/*-----------------------------------------------------------------WHATAPP MEDIA QUERY----------------------------------------------------------*/
 
 @media (max-width: 1000px){
 
