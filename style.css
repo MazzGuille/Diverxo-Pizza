@@ -31,6 +31,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .landing {
   height: 100%;
   width: 100%;
@@ -108,10 +109,6 @@ a {
 
 .sm-list li {
   margin: 0.75rem;
-}
-
-.whatsapp a img {
-  width: 5.5rem;
 }
 
 .facebook a img {
@@ -421,8 +418,8 @@ a {
   height: 100%;
   width: 100%;
   color: var(--light);
- 
-}
+  position: relative;
+ }
 
 .menu-head {
   display: flex;
@@ -432,6 +429,18 @@ a {
   font-size: 2rem;
   font-weight: 800;
   padding: 1rem;
+}
+
+.wapp-container{
+  position: fixed;
+  top: 60vh;
+  margin-left: 95%;
+  width: 100%;
+  
+}
+
+.whatsapp-menu{
+  width: 4rem;
 }
 
 .menu-head h2 {
